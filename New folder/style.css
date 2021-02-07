@@ -1,0 +1,92 @@
+body{
+    background-color: darkgray;
+    color: black;
+    font-family: monospace;
+    font-size: 18px;
+    line-height: normal;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+#main-header{
+	background-color:gold;
+	color:green;
+    text-align: center;
+}
+
+#navbar{
+	background-color:black;
+	color:white;
+    text-align: right;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:white;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+#main-showcase{
+	background-image:url('task002/image/wp2672841-wallpaper-blur-hd.jpg');
+	background-position:center right;
+	min-height:400px;
+	margin-bottom:35px;
+	text-align: center;
+}
+
+#main-showcase h1{
+	color:black;
+	font-size:45px;
+	line-height: normal;
+	padding-top:25px;
+}
+
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+    color: black;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background: black;
+	color:white;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+#main-footer{
+	background: green;
+	color:white;
+	text-align: center;
+	padding:1px;
+	margin-top:40px;
+    font-size: 15px
+}
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+}
+
+	#sidebar{
+		width:100%;
+		float:none;
+}

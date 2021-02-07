@@ -1,92 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+}
 body{
-    background-color: darkgray;
+    font-family: 'Pangolin', cursive;
+    font-size: 20px;
+    padding:30px 50px 0 50px;
+    background: #49379A;
+}
+.header{
+    background-image: url(1568-yeti-matiss-blue-3.jpg);
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.logo{
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 30px 60px;
+    font-size: 30px;
+    font-weight: 800;
+    
+}
+.heading h5{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.heading h1{
+    font-size: 90px;
+    
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px 30px;
+    margin: 20px 0;
+    display: inline-block;
+    
+}
+.btn-2{
+    color: white;
+    background-color: #2f229e;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 40%;
+    padding: 10px 30px;
+    margin: 20px 0;
+    display: inline-block;
+    
+}
+.banana{
+    display: flex;
+    background: white;
+    padding: 120px 55px;
+    
+}
+.apple{
+    width: 50%;
+    color: yellowgreen;
+}
+.banana-image {
+     background-image: url('img-1.jpg');
+     background-size: cover;
+     width: 50%;
+     position: relative;
+     height: auto;
+}
+.banana-image img {
+    max-width: 100%;
+}
+.apple h1{
+    
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 120px;
     color: black;
-    font-family: monospace;
-    font-size: 18px;
-    line-height: normal;
-    margin: 0;
+    
 }
-.container{
-    width: 80%;
-    margin:auto;
-    overflow: hidden;
-}
-#main-header{
-	background-color:gold;
-	color:green;
-    text-align: center;
+.banana.section-right{
+    background-image: url('img-1.jpg');
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-end; 
 }
 
-#navbar{
-	background-color:black;
-	color:white;
-    text-align: right;
-}
-
-#navbar ul{
-	padding:0;
-	list-style: none;
-}
-
-#navbar li{
-	display:inline;
-}
-
-#navbar a{
-	color:white;
-	text-decoration: none;
-	font-size:18px;
-	padding-right:15px;
-}
-
-#main-showcase{
-	background-image:url('task002/image/wp2672841-wallpaper-blur-hd.jpg');
-	background-position:center right;
-	min-height:400px;
-	margin-bottom:35px;
-	text-align: center;
-}
-
-#main-showcase h1{
-	color:black;
-	font-size:45px;
-	line-height: normal;
-	padding-top:25px;
-}
-
-#main{
-	float:left;
-	width:70%;
-	padding:0 30px;
-	box-sizing: border-box;
-    color: black;
-}
-
-#sidebar{
-	float:right;
-	width:30%;
-	background: black;
-	color:white;
-	padding:10px;
-	box-sizing: border-box;
-}
-
-#main-footer{
-	background: green;
-	color:white;
-	text-align: center;
-	padding:1px;
-	margin-top:40px;
-    font-size: 15px
-}
-
-@media(max-width:600px){
-	#main{
-		width:100%;
-		float:none;
-}
-
-	#sidebar{
-		width:100%;
-		float:none;
-}
